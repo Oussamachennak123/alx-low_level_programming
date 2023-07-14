@@ -1,8 +1,7 @@
 #include <stdio.h>
-
 /**
- * main - display the size of data types
- * Return: 0 and exit the program.
+ * main - display the size of data types prinf
+ * Return:0 and exit the program.
  */
 int main(void)
 {
