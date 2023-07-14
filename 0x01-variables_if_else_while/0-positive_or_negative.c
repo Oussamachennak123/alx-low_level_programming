@@ -9,7 +9,7 @@ int main(void)
 	int n;
 	printf("Please entre your number to n:");
 		scanf("%d",&n);
-		if (n==0)
+		if (n=0)
 		{
 		print("is zero");
 		}
