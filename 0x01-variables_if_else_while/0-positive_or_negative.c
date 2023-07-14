@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <sdlib.h>
 #include <time.h>
 /**
  * For choose positive or negatie in c.
