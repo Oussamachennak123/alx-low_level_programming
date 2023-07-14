@@ -9,17 +9,14 @@ int main(void)
 	int n;
 	printf("Please entre your number to n:");
 		scanf("%d",&n);
-		if (n=0)
-		{
-		print("is zero");
-		}
-		else if (n<0)
-		{
-			print("is negative");
-		}
-		else 
-		{
-			print("is positive");
-		}
+		if (n>=0)
+			if (n>0)
+				printf("is positive");
+			else
+				printf("is zero");
+		else
+			printf ("is negatif");
+
 		return (0);
 }
+
