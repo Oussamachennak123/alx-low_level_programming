@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - display  size of data types prinf
+ * main - display  size of data types prinf.
  * Return: 0 and exit the program c.
  */
 int main (void)
