@@ -2,13 +2,13 @@
 #include<sdlib.h>
 /**
  * For choose positive or negatie in c.
- * retun :0 
+ * retun , and user if else  
  */
 int main(void)
 {
-	float n;
+	int n;
 	printf("Please entre your number to n:");
-		scanf("%f",&n);
+		scanf("%d",&n);
 		if (n==0)
 		{
 		print("is zero");
