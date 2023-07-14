@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - display the size of data types prinf
- * Return:0 and exit the program.
+ * main - display  size of data types prinf
+ * Return 0 and exit the program c
  */
-int main(void)
+int main (void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
         printf("Size of an int: %d byte(s)\n", sizeof(int));
