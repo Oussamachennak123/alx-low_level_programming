@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <time.h>
+#include<stdio.h>
+#include<time.h>
 /**
  * For choose positive or negatie in c.
  * retun , and user if else  
