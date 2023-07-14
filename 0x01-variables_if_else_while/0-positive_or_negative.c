@@ -1,27 +1,22 @@
-#include<stdio.h>
-#include<time.h>
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
 /**
- * For choose positive or negatie in c.
- * retun , and user if else  
+ * main - display if the number is positive |  negative | zero
+ * Return: return 0 and exit the program
  */
 int main(void)
 {
 	int n;
-	printf("Please entre your number to n:");
-		scanf("%d",&n);
-			if (n > 0) 
-			{
-		printf("is positif");
-			}
-		       	else if (n == 0) 
-			{
-		printf("is zero");
-			}
-		     	else {
-		printf("is négatif");
-			}
 
-	printf("\n");
-
-	return 0;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n == 0)
+		printf("%d is zero\n", n);
+	else
+		printf("%d is negative\n", n);
+	return (0);
 }
