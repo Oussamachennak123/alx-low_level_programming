@@ -12,7 +12,7 @@ void puts2(char *str)
 	char *y = str;
 	int o;
 
-	while (*y !='\0')
+	while (*y != '\0')
 	{
 		y++;
 		longi++;
@@ -22,7 +22,7 @@ void puts2(char *str)
 	{
 		if (o % 2 == 0)
 	{
-			_putchar(str[o]);
+		_putchar(str[o]);
 	}
 	}
 	_putchar('\n');
