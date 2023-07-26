@@ -6,9 +6,10 @@
  *
  * Return: Pointer to the resulting string dest.
  */
-char *_starcat(char *dest, const char *src)
+char *_strcat(char *dest, const char *src)
 {
 	char *tbs = dest;
+
 	while (*tbs != '\0')
 	{
 		tbs++;
@@ -20,6 +21,7 @@ char *_starcat(char *dest, const char *src)
 		tbs++;
 		src++;
 	}
+
 	*tbs = '\0';
 
 	return (dest);
