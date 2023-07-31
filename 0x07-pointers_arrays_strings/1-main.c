@@ -195,4 +195,3 @@ int main(void)
 			        simple_print_buffer(buffer, 98);    
 				    return (0);
 }
-
