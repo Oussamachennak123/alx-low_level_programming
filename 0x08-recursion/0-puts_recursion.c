@@ -1,11 +1,11 @@
-"include "main.h"
+#include "main.h"
 
 /**
- * _puts_recursion - prints a string followed by a new line
+ * _puts_recursion - Prints a string followed by a new line.
  * @s: type int string
- * return: always 0
+ * Return: Always 0.
  */
-void _put_recursion(char *s)
+void _puts_recursion(char *s)
 {
 	int x = 0;
 
