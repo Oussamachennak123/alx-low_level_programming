@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * factorial - returns the length of a string
+ * factorial - Returns the length of a string.
  * @n: type int
- * return: 0
+ * Return: 0
  */
 int factorial(int n)
 {
