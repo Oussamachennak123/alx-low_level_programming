@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * funct - allows operation of _sqrt_recursion
+ * funct - Allows operation of _sqrt_recursion
  * @x: type int that define sqrt root
  * @y: type int that compares x
- * return: sqrt int or -1 if not int
+ * Return: sqrt int or -1 if not int
  */
 
 int funct(int x, int y)
@@ -21,9 +21,9 @@ int funct(int x, int y)
 		return (-1);
 }
 /**
- * _sqrt_recursion - function that returns the natural sqr root number
+ * _sqrt_recursion - function that returns the natural sqr root number.
  * @n: type int
- * Return: if n not sqt root then return -1
+ * Return: If n not sqt root then return -1
  */
 int _sqrt_recursion(int n)
 {
