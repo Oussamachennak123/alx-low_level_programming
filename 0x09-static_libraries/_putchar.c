@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-int_putchar(char c)
+int _putchar(char c)
 {
-	return _putchar(char c)
+	return putchar(c);
 }
