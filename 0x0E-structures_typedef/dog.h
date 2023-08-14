@@ -3,17 +3,19 @@
 
 /**
  *
- * create *name type char
- * create age type float
- * ceate *owner type char
+ * struct dog - dog structur
+ * create @name is name
+ * create @age is age
+ * ceate @owner is name
+ * dog struct containing the name age and owner name
  *
  */
 
 struct dog
 {
-	char *name ;
-	float age ;
-	char *owner ;
+	char *name;
+	float age;
+	char *owner;
 };
 
 #endif
