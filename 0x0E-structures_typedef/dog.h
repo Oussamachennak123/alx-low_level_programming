@@ -4,9 +4,9 @@
 /**
  *
  * struct dog - dog struct
- * create @name is name
- * create @age is age
- * ceate @owner is name
+ * create @name : is name
+ * create @age :is age
+ * ceate @owner :is name
  * Description: dog struct containing the name age and owner name
  *
  */
