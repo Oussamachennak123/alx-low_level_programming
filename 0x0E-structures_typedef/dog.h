@@ -2,13 +2,11 @@
 #define DOG_H
 
 /**
- *
- * struct dog - dog struct
- * create @name : is name
- * create @age :is age
- * ceate @owner :is name
- * Description: dog struct containing the name age and owner name
- *
+ * struct dog - a dog struct
+ * @name: dog's name
+ * @age: dog's age
+ * @owner: dog owner' name
+ * Description: dog struct containing the name, age and owner's name.
  */
 
 struct dog
@@ -19,7 +17,7 @@ struct dog
 };
 
 /**
- * dog_t - typedef struct dog
+ * dog_t - typedef for struct dog
  */
 typedef struct dog dog_t;
 
