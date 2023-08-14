@@ -1,12 +1,11 @@
-#include "dog.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "dog.h"
 
 /**
  * print_dog - prints dog's information
- * @d: struct dog to print the information
+ * @d: struct dog to print the information of
  */
-
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
