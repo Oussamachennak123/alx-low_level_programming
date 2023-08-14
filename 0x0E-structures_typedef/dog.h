@@ -2,11 +2,11 @@
 #define DOG_H
 
 /**
- * main - chech the code
+ *
  * create *name type char
  * create age type float
  * ceate *owner type char
- *Return: always 0.
+ *
  */
 
 struct dog
@@ -16,4 +16,4 @@ struct dog
 	char *owner ;
 };
 
-#endif /* DOG_H */
+#endif
