@@ -7,11 +7,11 @@
  * ceate *owner type char
  */
 
-struct dog
+typedef struct
 {
 	char *name ;
 	float age ;
 	char *owner ;
-};
+} dog;
 
-#endif
+#endif /* DOG_H */
