@@ -2,6 +2,6 @@
 
 int main(void)
 {
-    _puts("\"non\"\n\t- ouss");
+    _puts("\"Today is my day\"\n\t- Oussama");
     return (0);
 }
